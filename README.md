@@ -1,4 +1,8 @@
 # Selector Typescript and React application
+
+#### This code exports a Select component that is a customizable dropdown menu. The component accepts various props including whether the select is a multiple select, the current value(s) of the select, a callback function for when the value of the select changes, and an array of options for the select. The component is built using the React hooks useState and useEffect and also uses a useRef hook.
+
+The Select component has several functionalities, like the ability to open and close the dropdown, highlight options when the user moves up or down with the arrow keys, select or deselect options in multiple select mode or change the selected option in single select mode and clear all selected options. The component also renders the selected options and the options list. The component also uses a CSS module for styling.
 #### This code exports a Select component that is a customizable dropdown menu. The component accepts various props including whether the select is a multiple select, the current value(s) of the select, a callback function for when the value of the select changes, and an array of options for the select. The component is built using the React hooks useState and useEffect and also uses a useRef hook.
 
 #### The Select component has several functionalities, like the ability to open and close the dropdown, highlight options when the user moves up or down with the arrow keys, select or deselect options in multiple select mode or change the selected option in single select mode and clear all selected options. The component also renders the selected options and the options list. The component also uses a CSS module for styling.
